@@ -1,9 +1,57 @@
-import React from 'react';
+import React from "react";
 
-function Navbar(){
-    return(
-        <h1>Navbar</h1>
-    );
+function Navbar() {
+  return (
+    <nav
+      class="navbar navbar-expand-lg border-bottom"
+      style={{ background: "#FFF" }}
+    >
+      <div class="container p-2">
+        <a class="navbar-brand" href="#">
+          <img
+            src="media\images\logo.svg"
+            alt="logo"
+            style={{ width: "25%" }}
+          />
+        </a>
+       
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                Signup
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                About
+              </a>
+            </li>
+
+             <li class="nav-item">
+              <a class="nav-link active" href="#">
+                Products
+              </a>
+            </li>
+
+             <li class="nav-item">
+              <a class="nav-link active" href="#">
+                Pricing
+              </a>
+            </li>
+
+             <li class="nav-item">
+              <a class="nav-link active" href="#">
+                Supoort
+              </a>
+            </li>
+           
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;

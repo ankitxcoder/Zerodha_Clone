@@ -12,7 +12,7 @@ function Education() {
           />
         </div>
         <div className="col-6 mt-5 p-4 text-muted">
-          <h1 className="mb-4">Free and open market education</h1>
+          <h1 className="mb-4 fs-2">Free and open market education</h1>
           <p>
             Varsity, the largest online stock market education book in the world
             covering everything from the basics to advanced trading.
