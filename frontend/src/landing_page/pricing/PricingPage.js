@@ -2,7 +2,7 @@ import React from 'react';
 
 function PricingPage(){
     return(
-        <h1>return</h1>
+        <h1>Pricing return</h1>
     );
 }
 

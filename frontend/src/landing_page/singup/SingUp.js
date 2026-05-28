@@ -2,7 +2,7 @@ import React from 'react';
 
 function SingUp(){
     return(
-        <h1>SingUP</h1>
+        <h1>SingUP wala component </h1>
     );
 }
 
